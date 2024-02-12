@@ -1,0 +1,70 @@
+/* DataProcessingApp.css */
+
+.data-processing-app {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f0f8ff; /* Light Blue Background */
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+h1 {
+  text-align: center;
+  color: #4169e1; /* Royal Blue */
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #2f4f4f; /* Dark Slate Gray */
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: 1px solid #4682b4; /* Steel Blue Border */
+  border-radius: 4px;
+  transition: border-color 0.3s ease; /* Smooth border color transition */
+}
+
+input:hover,
+select:hover,
+input:focus,
+select:focus {
+  border-color: #1e90ff; /* Dodger Blue on hover/focus */
+}
+
+button {
+  display: inline-block;
+  padding: 8px 15px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: #0084ff; /* Lime Green */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+button:hover {
+  background-color: #053955; /* Forest Green on hover */
+}
+
+.button-container {
+  text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .data-processing-app {
+    padding: 15px;
+  }
+}
+
